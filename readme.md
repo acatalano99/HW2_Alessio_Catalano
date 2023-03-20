@@ -1,0 +1,4 @@
+#HW2 669HHHINGINFOR Alessio Catalano
+Nella schermata che stai visualizzando, ci sono sei bottoni. Di questi sei, cinque sono identificati come "THREAD xx", dove "xx" indica il tempo di esecuzione del thread associato a ciascun pulsante, come indicato sull'etichetta del bottone.
+Premendo uno di questi cinque pulsanti, il thread associato verrà avviato e visualizzato un messaggio nella TextView sottostante che indica se il thread è stato completato.
+L'ultimo pulsante, posizionato alla fine della lista, consente di avviare contemporaneamente tutti i thread associati ai cinque pulsanti "THREAD xx". Anche in questo caso, sarà possibile monitorare lo stato di esecuzione di ciascun thread nella relativa TextView.

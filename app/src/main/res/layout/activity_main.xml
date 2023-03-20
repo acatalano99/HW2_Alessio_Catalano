@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_10s"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onBtn10s_Click"
+            android:text="Thread 10s" />
+
+        <TextView
+            android:id="@+id/tv_10s"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <Button
+            android:id="@+id/btn_5s"
+            android:onClick="onBtn5s_Click"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thread 5s" />
+
+        <TextView
+            android:id="@+id/tv_5s"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <Button
+            android:id="@+id/btn_2s"
+            android:onClick="onBtn2s_Click"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thread 2s" />
+
+        <TextView
+            android:id="@+id/tv_2s"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <Button
+            android:id="@+id/btn_1s"
+            android:onClick="onBtn1s_Click"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thread 1s" />
+
+        <TextView
+            android:id="@+id/tv_1s"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <Button
+            android:id="@+id/btn_500ms"
+            android:onClick="onBtn500ms_Click"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thread 500ms" />
+
+        <TextView
+            android:id="@+id/tv_500ms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <Button
+            android:id="@+id/btn_StartAllThreads"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="startAllThreads"
+            android:text="Start All Available Threads" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
